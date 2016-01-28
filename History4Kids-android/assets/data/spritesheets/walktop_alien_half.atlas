@@ -1,0 +1,19 @@
+
+walktop_alien_half.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+climb
+  rotate: false
+  xy: 2, 2
+  size: 35, 49
+  orig: 35, 49
+  offset: 0, 0
+  index: 1
+climb
+  rotate: false
+  xy: 39, 2
+  size: 35, 49
+  orig: 35, 49
+  offset: 0, 0
+  index: 2

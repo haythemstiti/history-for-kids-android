@@ -1,0 +1,82 @@
+
+walkright_alien_half.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+p2_walk01
+  rotate: false
+  xy: 2, 2
+  size: 35, 47
+  orig: 35, 47
+  offset: 0, 0
+  index: -1
+p2_walk02
+  rotate: false
+  xy: 39, 2
+  size: 35, 47
+  orig: 35, 47
+  offset: 0, 0
+  index: -1
+p2_walk03
+  rotate: false
+  xy: 76, 2
+  size: 35, 47
+  orig: 35, 47
+  offset: 0, 0
+  index: -1
+p2_walk04
+  rotate: false
+  xy: 113, 2
+  size: 35, 47
+  orig: 35, 47
+  offset: 0, 0
+  index: -1
+p2_walk05
+  rotate: false
+  xy: 150, 2
+  size: 35, 47
+  orig: 35, 47
+  offset: 0, 0
+  index: -1
+p2_walk06
+  rotate: false
+  xy: 187, 2
+  size: 35, 47
+  orig: 35, 47
+  offset: 0, 0
+  index: -1
+p2_walk07
+  rotate: false
+  xy: 224, 2
+  size: 35, 47
+  orig: 35, 47
+  offset: 0, 0
+  index: -1
+p2_walk08
+  rotate: false
+  xy: 261, 2
+  size: 35, 47
+  orig: 35, 47
+  offset: 0, 0
+  index: -1
+p2_walk09
+  rotate: false
+  xy: 298, 2
+  size: 35, 47
+  orig: 35, 47
+  offset: 0, 0
+  index: -1
+p2_walk10
+  rotate: false
+  xy: 335, 2
+  size: 35, 47
+  orig: 35, 47
+  offset: 0, 0
+  index: -1
+p2_walk11
+  rotate: false
+  xy: 372, 2
+  size: 35, 47
+  orig: 35, 47
+  offset: 0, 0
+  index: -1

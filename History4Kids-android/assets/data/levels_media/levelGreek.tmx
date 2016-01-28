@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="250" height="40" tilewidth="10" tileheight="10">
+ <tileset firstgid="1" name="env1" tilewidth="70" tileheight="70">
+  <image source="env1.png" width="630" height="490"/>
+ </tileset>
+ <tileset firstgid="64" name="clouds1" tilewidth="128" tileheight="71">
+  <image source="clouds1.png" width="129" height="213"/>
+ </tileset>
+ <tileset firstgid="67" name="short_thingy1" tilewidth="48" tileheight="106">
+  <image source="short_thingy1.png" width="96" height="106"/>
+ </tileset>
+ <tileset firstgid="69" name="tall_thingy1" tilewidth="48" tileheight="146">
+  <image source="tall_thingy1.png" width="96" height="146"/>
+ </tileset>
+ <tileset firstgid="71" name="progress1" tilewidth="47" tileheight="47">
+  <image source="progress1.png" width="94" height="47"/>
+ </tileset>
+ <tileset firstgid="73" name="bckg1" tilewidth="10" tileheight="10">
+  <image source="bckg1.png" width="140" height="70"/>
+ </tileset>
+ <tileset firstgid="171" name="brick1" tilewidth="10" tileheight="10">
+  <image source="brick1.png" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="220" name="ruin_greek001" tilewidth="10" tileheight="10">
+  <image source="ruin_greek001.png" width="312" height="104"/>
+ </tileset>
+ <tileset firstgid="530" name="ruin_greek002" tilewidth="10" tileheight="10">
+  <image source="ruin_greek002.png" width="165" height="36"/>
+ </tileset>
+ <tileset firstgid="578" name="ruin_greek003" tilewidth="10" tileheight="10">
+  <image source="ruin_greek003.png" width="165" height="78"/>
+ </tileset>
+ <tileset firstgid="690" name="ruin_greek04" tilewidth="10" tileheight="10">
+  <image source="ruin_greek04.png" width="100" height="34"/>
+ </tileset>
+ <tileset firstgid="720" name="ruin_greek005" tilewidth="10" tileheight="10">
+  <image source="ruin_greek005.png" width="40" height="152"/>
+ </tileset>
+ <tileset firstgid="780" name="ruin_greek006" tilewidth="10" tileheight="10">
+  <image source="ruin_greek006.png" width="30" height="114"/>
+ </tileset>
+ <tileset firstgid="813" name="ruin_greek007" tilewidth="10" tileheight="10">
+  <image source="ruin_greek007.png" width="40" height="88"/>
+ </tileset>
+ <tileset firstgid="845" name="ruin_greek008" tilewidth="10" tileheight="10">
+  <image source="ruin_greek008.png" width="50" height="54"/>
+ </tileset>
+ <tileset firstgid="870" name="ruin_greek009" tilewidth="10" tileheight="10">
+  <image source="ruin_greek009.png" width="90" height="45"/>
+ </tileset>
+ <tileset firstgid="906" name="ruin_greek010" tilewidth="10" tileheight="10">
+  <image source="ruin_greek010.png" width="80" height="40"/>
+ </tileset>
+ <tileset firstgid="938" name="ruin_greek011" tilewidth="10" tileheight="10">
+  <image source="ruin_greek011.png" width="39" height="133"/>
+ </tileset>
+ <tileset firstgid="977" name="ruin_greek012" tilewidth="10" tileheight="10">
+  <image source="ruin_greek012.png" width="39" height="142"/>
+ </tileset>
+ <tileset firstgid="1019" name="ruin_greek013" tilewidth="10" tileheight="10">
+  <image source="ruin_greek013.png" width="30" height="109"/>
+ </tileset>
+ <tileset firstgid="1049" name="ruin_greek014" tilewidth="10" tileheight="10">
+  <image source="ruin_greek014.png" width="30" height="56"/>
+ </tileset>
+ <tileset firstgid="1064" name="ruin_greek015" tilewidth="10" tileheight="10">
+  <image source="ruin_greek015.png" width="40" height="95"/>
+ </tileset>
+ <tileset firstgid="1100" name="ruin_greek016" tilewidth="10" tileheight="10">
+  <image source="ruin_greek016.png" width="50" height="55"/>
+ </tileset>
+ <tileset firstgid="1125" name="greek001" tilewidth="10" tileheight="10">
+  <image source="greek001.png" width="125" height="128"/>
+ </tileset>
+ <tileset firstgid="1269" name="greek_trader" tilewidth="10" tileheight="10">
+  <image source="greek_trader.png" width="43" height="64"/>
+ </tileset>
+ <tileset firstgid="1293" name="greek_politician" tilewidth="10" tileheight="10">
+  <image source="greek_politician.png" width="43" height="64"/>
+ </tileset>
+ <tileset firstgid="1317" name="greek_marine" tilewidth="10" tileheight="10">
+  <image source="greek_marine.png" width="43" height="64"/>
+ </tileset>
+ <tileset firstgid="1341" name="greek_soldier" tilewidth="10" tileheight="10">
+  <image source="greek_soldier.png" width="43" height="64"/>
+ </tileset>
+ <tileset firstgid="1365" name="greek_officer" tilewidth="10" tileheight="10">
+  <image source="greek_officer.png" width="43" height="64"/>
+ </tileset>
+ <tileset firstgid="1389" name="progress2" tilewidth="10" tileheight="10">
+  <image source="progress2.png" width="80" height="80"/>
+ </tileset>
+ <layer name="backgrounds" width="250" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt2TdSQ1EURMG/PWFDrEJ8iIQJkQSE+BCrjWo2QdWt9zo4Ue9gZjQMw1paTxtpM22l7TRijDVhO2k37aX9dJAO05gx1owdpeN0kk7TWTpPF4yxZuwyTdI0XaXrdJNuGWPN2F2apXlapPv0kB4ZY83YU3pOL+k1vaX39MEYa8Y+01f6Tj/pN/2lJWOsGauw+TPG/GqMMb8aY8yvxljvVmHzZ4z51RhjfjXGmF+Nsd6twubPGPOrMcb8aowxvxpjvVuFzZ8x5ldjjPnVGGN+NcZ6twqbP2PMr8YY86sxxvxqjPVuFTZ/xphfjTHmV2OM+dUY690qbP6MMb8aY8yvxhjzqzHWu1XY/BljfjXGmF+NMeZXY6x3q7D5M8b+11aOzb08
+  </data>
+ </layer>
+ <layer name="beforebackground" width="250" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt2ltq21AUBVAh6Iz62/f7/ZyGNQLHdGJOm/bDbdPMqcdUl5yqVm1Bgq5hLdhYSNbFhGyOJatpAAAAAAAAAAAAAAAAAAAAAAAAgOuyaJuma+f+FMBVWLZ/Unq96HMSWfXHgPqto6unkc+RL5GzyNfIt9ThRftvur7nh5wPzGsTffwe+dH39jzyK3LRXs7zkz6L9Nql4+X8n4PzgfmVWVz6mmfx6Y753Q22z/rzyvvNdKjPZmQWlxld5ne5Hl8Nts/7916Y6VC1dd/VXbM4d3yZtoff212jQ93GZvp2Fpdj+bt7vlbv+vP+twYwv7F5Xn4zWw+uyfN9uVV6j3kO9do3izft37+f59dD16jF3RvNpzuR25FbkX37p64DtSrzvMzj4X338pxMfj6mS7O8rHEM8/xhdPJB5H7kXurn2P6p60CtNu3l/fXlyDV67ni+L1d6fCzz/Gl08knkceRR6ufY/qnrQK1Kz3c9J1Pk39KWg2wdyzx/GZ18EXkeeZb6ObZ/6jqQ3Zz7AyT7Orre0e3c8a0a5vkhf9O30ck3kdeRV6mfY/unrlObmv7PmNch9+Hm7vBV+Rid/BB5H3mX+jm2f+o6AAAAAAAA1+U3dLr+eA==
+  </data>
+ </layer>
+ <layer name="stairs" width="250" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztmldPFFEYhk+ycmfvvfeGiFQLKCgWwK4IFgTs/giv7b337s+x9957r1c+k+zFxpxhDpt1XWffJ3mS2TmH+eZsvpfkS9YYIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEECJxXIwYcwkvR/71mwgh/hZXyPdVvJamOd/NuffgXtwXCf68vwn3hEgVrtOPN/BmmvblYc59BI/isUjw5+NNuCdEqnCLfryNd9SXQoSWu+T7Ht6PyXm6zezNOWcLbOlz3qB11z1CJJoR9NtIzMRRjfTeA9Ye4qOYPek2s7finK2xjc95g9Zd9wiRaLLot9GYjWMa6b3HrD3BpzF70m1mb8s522F7n/MGrbvuESLR5NBvuZiH+Y303jPWnuOLmD3pNrN34JwdsZPPeYPWXfcIkWgK6LdCHIvjor1nm7tfcv0KX8fcs83s5c2MqcBKnImzmiXnHMmgM+fsgl19Mhq07rpHiEQznn6bgEVYHO0929z9huu3+C7mnm1mn02u5+BcnIfzQ5TzbpyzO/bwyWjQuuseIRLNRPptEpZgabT3bHP3e64/4MeYe7aZfQG5XohVuAirQ5TznpyzF/b2yWjQuuueMFGcYTYU4QQcj/E8Y34GfYULsSrD7W+oZahpqO29Q9ozmX6bgmU4Ndp7trn7E9ef8UvMPdvMXkOuF+MSXIrLQpTzPpyzL/bzyWjQuuueMFFKtktwEk6MM+eLyGk11uBix8xSy1DTUNt7h7RnGv02HWdgebT3bHP3V66/4feAmb2WXC/HOqzHhhDlvD/nHIADfTIatO66x5WNPGMTbsYtuBW34XbckSL/R6aS7TKcgpPjzPkScroUl2GtY2apZahpqO29g7Bgm7t/cP0TfwXM7B4FEVNciGNxHCblpZPAIM45GIf4ZCho3XWPKzt5xq6I/TfzB1Ik5+VkewZOx2lx5nw5Oa3DemxwzCy1DDUNtb13EBZsc7cN28zukUO2czEP80OU86GccxgO9/legtZd97hykGccith/M38iRXI+i2zPxEqsiDPnK8jpSlyFqx0zSy1DTUNt7x2EBdvcbcM2s3tkke3RmI1jQpTzVOMk3/spPI1n8Cyew/N4IUVyPo9sz8U5ODvOnK8hp2txHa53zCy1DDUNtb13EBZsc7cN28zuMYJsj8RMHKWcC5GS+M3df2Kb2YUQ/wd+c7cQIjz4zd1CiPDgN3cLIcKD5m4hkstvTtLqmw==
+  </data>
+ </layer>
+ <layer name="far" width="250" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt2ldPVFEUQOEjiPXN3jXYu0HsAgP2Xn/Q/on23nvvva8JPN4ENW7JzKwvWQmZc+/ZENkPJpQiSZIkSZIkSZIkSZIkNZb+of612lCSJEmSpMaQ9f9DSZIkSVLrqI30NyCpKQ2M9Dcg/w0kSWlOtZVyms7Q2bb/fy4p3zl27zxdoIsVe5h9LinfJXbvMl2hqxV7mH0u/S3/Tur3XWP3rtMNulmxh9nnkvLdYvdu0x26W7GH2eeS8t1j9+7TA3pYsYfZ55LyPWL3HtMTelqxh9nnkvI9Y/ee0wt6WbGH2eeS8r1i917TG3pbsYfZ55LyvWP33tMH+lixh9nnzaTWUaKPeqmHsuZwd2FGYVZ9pjSsT+zeZ/pCXyv2MPu8mexkt3fQAPUn7jl3F2YUZtVntrxJ/F5Npik0labRdJpBM2kWzaY5NJfm0XxaMFjwdfBZcBY8EzwbvBO8G9wR3BXcGdwdzAhmBTNjpH/uP/GNn/U7/aCfFXuYfd5M9rLbe2g37Urcc+4uzCjMqs9seZ38Xi2kRbSYltBSWkbLaQWtpFW0mtbQWlo3WPB18FlwFjwTPBu8E7wb3BHcFdwZ3B3MCGZFZ4PteWkvZRS1UXv7CJw3kYPs9gHaT/sS95y7CzMKs+ozG0p3wp1d7Ot66qYNtJE20WbaQltpG22nHuqlPqoNFnwdfBacBc8EzwbvBO8GdwR3BXcGdwczglnR1WB7Pprd66AxNLZiD7PPm8lRdvsIHaZDiXvO3YUZhVn1mdKwxrF742kCTazYw+zzZnKS3T5Bx+lY4p5zd2FGYVZ9piRJkiRJkiRJaiG/AF3W85w=
+  </data>
+ </layer>
+ <layer name="doors" width="250" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt01e813Mcx/FfO5KyPexNJFpW2rsoIx72pmlUqERDgxYRDaOkjAqlVLSoaFEZUWnvvUvS8jw3rlz+z79z+Lwe53nzv/h8z+/inSRRFEVRFEVRFEVRFEVRFEVRFEVRFEVRFEVRFEVRFEVRFEX/3mKWsJRlLGcFK1nFatawlnWsZwMb2cRmtrCVbWxnBzvZxW728Ad7+ZN96fiwKIr+aT8HOMghDmf8mMMfOclFbvKQl3zk5yiOpgDHUJBjKURhjuN4TuBETuJkTuHUHEfyi6Po/9dpNnc6Z3AmZ3E253Au53E+F3AhF3Exl1CES7mMolxOMa7gSopTgpKUojRXcXXsPIrS2rU2dx1luJ6ylKM8FahIJSpThapUozo1qEktanMDN1KHutzEzdzCrdTjNm6PnUdRWrvD5u7kLu7mHu7lPu7nAR7kIR7mER7lMerTgIY0ojFNeJwneJKnaEozmvM0z8TOoyittbC5lrTiOVrzPC/Qhra0oz0v0oGOdKIzL/EyXehKN7rTg1d4lZ68xuv04o3YeRSltd4214e+9OMt3uYd3qU/A3iPgbzPIAbzAR/yER8zhKEM4xM+5TOGM4LPGcmo2HkUpbXRNjeGsXzJV4xjPBOYyCS+5hsmM4WpfMt3TGM6M5jJLL7nB2Yzh7n8yE/8HDuPorQ2z+Z+5Tfms4CF/M4iFrOEpSxjOStYySpWs4a1rGM9G9jIJjazha1sYzs7YudRlNZ22dxu9vAHe/mTffzFfg5wkEMczthoziTJQU5ykZs85CUf+TmKoynAMRTkWApROOeR/uooiqIoiqIoiqIoiqIo1V2SO0mKcCmX5T7S/00URZlRUdu+nGJcETuPopT3qF09Rn0a0JBGNKYJj/MET2bi/q50uzglKBk7j6KU19SumtGcp3mGZ2lBS1rxHK0zcX+l3C7NVVwdO4/SVIU8SbvylKMsqbrrVuJm4nbGG1miF+yqDW1pR3tepAMd6URnXsrE/V3j9rVcR5nYeZSmqth2ZSpRMYU7dytxM3E7440sURe76ko3utODV3iVnrzG6/TKxP1d73ZZylE+dh6lqRq2XZ1qVE3hzt1K3EzczngjS/SmXfWmD33px1u8zTu8S38GZOL+KrhdkUpUjp1HaeoG265NLWqmcOduJW4mbme8kSUaaFfvM4jBfMCHfMTHDGEowzJxf1Xcrko1qsfOozR1k23XpQ43pnDnbiVuJm5nvJEl+tSuPmM4I/ickYziC0YzhrGZuL8abtekFrVj51Gaqmfbt3ILN6dw524lbiZuZ7yRJfrKrsYxnglMZBJf8w2TmcLU2F8UZdu+s99pTGcGM5nF9/zAbOYwN3YeRdm2n+z3Z35hHr/yG/NZwEJ+Z1HsPIqybUvsdynLWM4KVrKK1axhLeti51GUbdtgvxvZxGa2sJVtbGcHO9kVO4+iKIqi/0R/A5n6G2A=
+  </data>
+ </layer>
+ <layer name="locks" width="250" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt03s3FWEUgPEd51BukVwTJ0qo5JaKbiKXJIUP5EtHJHnmE7TGHDNrznp+az1/zn7fNe/aEZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSaqnX5WIEzql35WibyPpJpyx2+f0hy7cc6kh/WW3L+lfsuPVom8j6SbcYrebqJkq7vl/dfKPuugudfu/UvtUjeOP9IHe03Xn8G0wI5iVzMzNE86apKc0VaL3r3LXFmql2yW6d1F6+Ef3qJfu+79S22C31+kzrWXYc74NZgSzkpm5measGXpGz0v0/ne4axu1U0eJ7l2UPv5RPw3QoP8rtW12e4s26UuGPefbYEYwK5mZmxecNUsvac73b1hDvO0wPaAR3zm1b+z2Ln2lnQx7zrfBjGBWMjM385y1QIu05Ps3rIe87SiNUc13Tu0Hu71P32kvw57zbTAjmJXMzM0rzlqm1/TG929Yj3jbcZqgx75zakfs9iEd0M8Me863wYxgVjIzN285a4VW6Z3vL0mSJEmSJEkqQK3oC9RJrY6zrgCh4C4K
+  </data>
+ </layer>
+ <objectgroup name="player"/>
+ <layer name="floor" width="250" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztyaENADAIADAOIej9f+E+IOAQrW0EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADBVzrmTl8295X0GZwRL
+  </data>
+ </layer>
+ <layer name="top" width="250" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt00dOXFEYBeEn0ZsgY+JqyMZgco7GbXKTT2Nw2DU148ljWv2Q65NKusP/Dk5RSJIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZLeU2etKLqou9buS96MdxTFBE3SFE13tPsi6WPrYd+91Nfine+y1T3apwM6pCP6Rsf0vbTlGd6z9Jnm6EuFds6d4d5wd7g//CP8J/wr/C/8M+2+UfpXP/seoE8t3nmdrf6gEzqlMzqnC7qkq9KW53kv0FdapKUK7Zw7w73h7nB/+Ef4T/hX+F/q7lwVNMi+h2i4xTtvsNVruqFbuqN7eqBHSmnLy7xXaJXWaL1CO+fOcG+4O9wf/hH+E/4V/peGO1cFjbDvURpr8c6bbPWJftIzvdAv+k1/6G9pyxu8N2mLtmmnQjvnznBvuDvcH/4R/hP+Ff6XpjuXJEmSJEmSJEmS9J95BfMCP40=
+  </data>
+ </layer>
+ <objectgroup name="controls"/>
+ <layer name="merchant" width="250" height="40" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt00cKAlEARMHZzJWNYAQjGMEIxovahxgQPlXw9r3pqgIAAAAAAAAAAAAAAAAAAACA5rTqqmqnTuqmXurX/14FNGmQTw/TKI3TJE39HIoyy6fnaZGWaZXWfg5F2eTT27RL+3RIRz+Hopzy6XO6pGu6pbufQ1Ee+fQzvdI7fdLXzwEAAAAAAAAAAAAAAAAAAAAAGvMDhBMUdw==
+  </data>
+ </layer>
+ <layer name="politician" width="250" height="40" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt00cKQkEARMG/8cpGMIIRjGAE40XtQwjKWAVv35uuKgAAAAAAAAAAAAAAAAAAAAAAAAAA+F/1WlU1UjO1Ujt1at9eBXxSN5/upX4apGEa+TkUZZxPT9I0zdI8LfwcirLMp1dpnTZpm3Z+DkXZ59OHdEyndE4XP4eiXPPpW7qnR3qml58DAAAAAAAAAAAAAAAAP+wNcAsUdw==
+  </data>
+ </layer>
+ <layer name="officer" width="250" height="40" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt00cKAlEARMHZzJWNYAQjGMEIxovaB3ApCJ8qePvedFUBAAAAAAAAAAAAAAAAAAAAAAAAAPxXo66qZmqlduqkbv3vVcAv9fLpfhqkYRqlsZ9DUSb59DTN0jwt0tLPoSirfHqdNmmbdmnv51CUQz59TKd0Tpd09XMoyi2fvqdHeqZXevs5AAAAAAAAAAAAAAAAAHz1AZoIFHc=
+  </data>
+ </layer>
+ <layer name="marine" width="250" height="40" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt00cKAlEARMHZzJWNYAQjGMEIxovaB3ApCJ8qePvedFUBAAAAAAAAAAAAAAAAAAAAAAAAAPBNo66qZmqlduqkbv3vVcAv9fLpfhqkYRqlsZ9DUSb59DTN0jwt0tLPoSirfHqdNmmbdmnv51CUQz59TKd0Tpd09XMoyi2fvqdHeqZXevs5AAAAAAAAAAAAAAAAAH/2AXNEFHc=
+  </data>
+ </layer>
+</map>

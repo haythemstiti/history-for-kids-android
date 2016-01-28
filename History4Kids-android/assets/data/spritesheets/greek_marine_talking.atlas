@@ -1,0 +1,19 @@
+
+greek_marine_talking.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+greek_marine1
+  rotate: false
+  xy: 2, 2
+  size: 43, 31
+  orig: 43, 31
+  offset: 0, 0
+  index: -1
+greek_marine2
+  rotate: false
+  xy: 47, 2
+  size: 43, 31
+  orig: 43, 31
+  offset: 0, 0
+  index: -1

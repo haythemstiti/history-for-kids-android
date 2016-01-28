@@ -1,0 +1,19 @@
+
+walktop_alien.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+climb
+  rotate: false
+  xy: 2, 2
+  size: 67, 93
+  orig: 67, 93
+  offset: 0, 0
+  index: 1
+climb
+  rotate: false
+  xy: 71, 2
+  size: 66, 93
+  orig: 66, 93
+  offset: 0, 0
+  index: 2

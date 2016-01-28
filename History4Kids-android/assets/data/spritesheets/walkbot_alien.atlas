@@ -1,0 +1,19 @@
+
+walkbot_alien.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+p2_walk03
+  rotate: false
+  xy: 2, 2
+  size: 70, 94
+  orig: 70, 94
+  offset: 0, 0
+  index: -1
+p2_walk04
+  rotate: false
+  xy: 74, 2
+  size: 70, 94
+  orig: 70, 94
+  offset: 0, 0
+  index: -1
